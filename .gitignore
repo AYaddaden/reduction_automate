@@ -1,0 +1,6 @@
+Reduction_automate/bin
+Reduction_automate/obj
+Reduction_automate/*.cbp
+Reduction_automate/*.depend
+Reduction_automate/*.layout
+Reduction_automate/*.o

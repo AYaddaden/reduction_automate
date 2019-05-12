@@ -1,0 +1,40 @@
+Les donnees de l'automate sont:
+	L'alphabet: X={a}
+	L'ensemble des etats est: S={S0}
+	L'ensemble des etats finaux est: F={S0}
+	L'ensemble des instructions est: II={(S0, a, S0)}
+
+Execution d'une instruction:
+	 Le mot: aab
+
+Le chemin suivi par l'automate est:
+( S0 ; a ; S0 )
+( S0 ; a ; S0 )
+( S0 ; b ; ?): Instruction incorrecte!
+
+Resultat:
+Le mot n'appartient pas au langage
+
+*****************************************************************
+Les donnees de l'automate sont:
+	L'alphabet: X={a}
+	L'ensemble des etats est: S={S0}
+	L'ensemble des etats finaux est: F={S0}
+	L'ensemble des instructions est: II={(S0, a, S0)}
+
+Execution d'une instruction:
+	 Le mot: aaaaaz
+
+Le chemin suivi par l'automate est:
+( S0 ; a ; S0 )
+( S0 ; a ; S0 )
+( S0 ; a ; S0 )
+( S0 ; a ; S0 )
+( S0 ; a ; S0 )
+( S0 ; z ; ?): Instruction incorrecte!
+
+Resultat:
+Le mot n'appartient pas au langage
+
+*****************************************************************
+
